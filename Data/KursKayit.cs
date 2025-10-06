@@ -18,7 +18,4 @@ namespace efcore.Data
 
     }
 
-
-
-
 }
