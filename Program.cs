@@ -11,7 +11,7 @@ builder.Services.AddDbContext<DataContext>(options => {
     
   var config = builder.Configuration;
 
-   var connectionString=config.GetConnectionString("datebase");
+   var connectionString=config.GetConnectionString("database");
   
      options.UseSqlite(connectionString);});
 
